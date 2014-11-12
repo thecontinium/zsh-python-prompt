@@ -44,25 +44,25 @@ pyenv_test (set by /Users/user/hoge/fuga/pyenv_test/.python-version)
 Installation
 ---------------
 
-0. Clone the repository  
+1. Clone the repository  
 ```sh
-mkdir -p .zsh/plugins/
+mkdir -p ~/.zsh/plugins/
 git clone ...
 ```
 
-1.Source ``zsh-python-prompt/zshrc.zsh`` file.
+2.Source ``zsh-python-prompt/zshrc.zsh`` file.
 
 ```sh
 source /path/to/zsh-python-prompt/zshrc.zsh
 ```
 
-2.Set the environmental variable ``$ZSH_PYTHON_PROMPT`` to ``PROMPT`` or ``RPROMPT``.
+3.Set the environmental variable ``$ZSH_PYTHON_PROMPT`` to ``PROMPT`` or ``RPROMPT``.
 
 ```sh
 PROMPT+='$ZSH_PYTHON_PROMPT'
 ```
 
-3.Enable environmental variables in ``PROMPT``.
+4.Enable environmental variables in ``PROMPT``.
 
 ```sh
 setopt prompt_subst
