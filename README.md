@@ -44,8 +44,11 @@ pyenv_test (set by /Users/user/hoge/fuga/pyenv_test/.python-version)
 Installation
 ---------------
 
-0. mkdir -p .zsh/plugins/
-   git clone ...
+0. Clone the repository  
+```sh
+mkdir -p .zsh/plugins/
+git clone ...
+```
 
 1.Source ``zsh-python-prompt/zshrc.zsh`` file.
 
