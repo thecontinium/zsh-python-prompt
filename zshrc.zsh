@@ -56,6 +56,7 @@ function(){
 fpath=(~/.zsh/plugins/zsh-python-prompt/functions(N-/) ${fpath})
 
 # autoload
+autoload -Uz add-zsh-hook
 autoload -Uz zsh-python-prompt
 autoload -Uz zsh-python-prompt-update
 
